@@ -1,6 +1,6 @@
 {
   "name": "openfaas-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Swagger generated client for OpenFaaS API Gateway",
   "main": "dist/api",
   "types": "dist/api",
@@ -26,9 +26,10 @@
   "homepage": "https://github.com/fonoster/openfaas-client#readme",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "http": "*",
     "request": "^2.88.2",
-    "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^8"
   }
 }

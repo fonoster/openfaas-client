@@ -9,6 +9,7 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
+/// <reference types="node" />
 import localVarRequest = require('request');
 import http = require('http');
 import Promise = require('bluebird');
